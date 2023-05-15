@@ -8,11 +8,13 @@
 </head>
 <link rel="stylesheet" href="estilo.css">
 <body>
-
+<fieldset id="contenedor-producto">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCcPZ1J5ryKq8ZhjQqpKQmyKXiJVIpEmnReJD291w3OFXZczCpiAfb4JHLS-mAlEiwlSM&usqp=CAU" alt="">
 <p>Auto</p>
 <p>Precio : $500</p>
-<fieldset>
+</fieldset>
+
+<fieldset id="contenedor-cantidad">
  <legend>Cantidad:</legend>
  <select name="cantidad" id="">
  <option value="1">1</option>
@@ -23,7 +25,7 @@
 
 <button onclick="agregarProducto()">Agregar</button>
 
-<button>Siguiente</button>
+<button onclick="pasarProducto()">Siguiente</button>
 <p id="precio-total">Total:</p>
 
 <fieldset>

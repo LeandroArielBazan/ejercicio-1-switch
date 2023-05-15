@@ -1,0 +1,27 @@
+body{
+    font-size: larger;
+    display: grid;
+    place-content: center;
+
+    color: black;
+}  
+
+img{
+    width: 40vh;
+}
+
+#contenedor-producto{
+    border: 2 px solid blue;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+button{
+    background-color: aqua;
+    font-size: larger;
+}
+
+#contenedor-cantidad{
+    display: grid;
+    place-content: center;
+}
